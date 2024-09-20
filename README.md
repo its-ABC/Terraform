@@ -1,4 +1,4 @@
-# Terraform (very basic info)
+# Terraform 
 
 
 ### What is Terraform?
