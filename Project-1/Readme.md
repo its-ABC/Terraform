@@ -13,9 +13,12 @@ This repository contains Terraform configuration files to define and provision i
 ├── output.tf    # Specifies the output values after resources are provisioned
 ├── README.md    # This file
 
-## Terraform commands
+##  Terraform commands
 
-### ```terraform init```
+### 
+```
+terraform init
+```
 Initializes the Terraform working directory by downloading necessary provider plugins and setting up the environment for running Terraform commands.
 
 ### ```terraform plan```
