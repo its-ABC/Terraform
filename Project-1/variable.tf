@@ -1,7 +1,7 @@
 variable "instance_type" {
   description = "provide the type of ex2 instance needed"
   type = string
-  default = "t2.micr2"
+  default = "t2.micro"
 }
 
 variable "ami" {
