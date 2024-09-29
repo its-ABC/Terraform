@@ -21,15 +21,18 @@ This repository contains Terraform configuration files to define and provision i
 terraform init
 ```
 
+
 2. Previews the changes Terraform will make to the infrastructure based on the current state and configuration. No changes are applied; it only shows what will happen.
 ```
 terraform plan
 ```
 
-3. Applies the changes defined in the Terraform configuration to create or modify the infrastructure. It will prompt for confirmation before making changes unless -auto-approve is used
+
+3. Applies the changes defined in the Terraform configuration to create or modify the infrastructure. It will prompt for confirmation before making changes unless `-auto-approve` is used
 ```
 terraform apply
 ```
+
 
 4. Displays the current state of your infrastructure after a terraform apply. It helps in reviewing what resources were created or modified
 ```
