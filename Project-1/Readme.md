@@ -15,13 +15,14 @@ This repository contains Terraform configuration files to define and provision i
 
   Terraform commands
 
-``
-terraform init
-``
-Initializes the Terraform working directory by downloading necessary provider plugins and setting up the environment for running Terraform commands.
 
+
+1. Initializes the Terraform working directory by downloading necessary provider plugins and setting up the environment for running Terraform commands.
+```terraform init```
+
+2. Previews the changes Terraform will make to the infrastructure based on the current state and configuration. No changes are applied; it only shows what will happen.
 ```terraform plan```
-Previews the changes Terraform will make to the infrastructure based on the current state and configuration. No changes are applied; it only shows what will happen.
+
 
 ### ```terraform apply```
 Applies the changes defined in the Terraform configuration to create or modify the infrastructure. It will prompt for confirmation before making changes unless `-auto-approve` is used.
